@@ -1,8 +1,7 @@
 pipeline {
 	agent any
 	tools{
-        	git 'git-2.45.0'
-		maven 'maven-3.9.9'
+        	maven 'maven-3.9.9'
     	}
 	stages{
 		stage('Checkout Code'){
